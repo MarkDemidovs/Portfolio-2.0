@@ -11,6 +11,8 @@ const config: Config = {
       colors:{
         background1: "#1B191D",
         offwhite: "#FAF9F6",
+        purplebtn: "#7D27BF",
+        backgroundDiv: "#330E4F",
       },
       backgroundImage: {
         "gradient-radial": "radial-gradient(var(--tw-gradient-stops))",
