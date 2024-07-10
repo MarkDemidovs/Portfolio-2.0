@@ -2,11 +2,11 @@ import Hints from "../components/Hints";
 
 export default function About() {
   return (
-    <div className="bg-backgroundDiv2 h-screen">
-      <h1 className="text-4xl text-offwhite md:mx-12 pt-3">About Me</h1>
-      <div className="flex flex-row justify-center text-offwhite">
+    <div className="bg-backgroundDiv2 h-fit pb-14">
+      <h1 className="text-5xl text-offwhite md:mx-14 md:mb-8 md:pt-5  pt-3">About Me</h1>
+      <div className="flex flex-row justify-center text-offwhite my-12">
 
-        <div className="flex flex-col">
+        <div className="flex flex-col items-center">
 
             <div>
                 <Hints />
