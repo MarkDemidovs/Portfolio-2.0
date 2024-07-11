@@ -3,11 +3,11 @@ import Hints from "../components/Hints";
 export default function About() {
   return (
     <div className="bg-backgroundDiv2 h-fit pb-14">
-      <h1 className="text-5xl text-offwhite md:mx-14 md:mb-8 md:pt-5  pt-3">About Me</h1>
+      <h1 className="text-5xl text-offwhite lg:mx-14 max-md:text-center md:mb-8 pt-5 max-md:mx-auto">About Me</h1>
       <div className="flex flex-row justify-center text-offwhite my-12">
-
+       <div className="flex max-md:flex-col">
         <div className="flex flex-col items-center">
-
+          
             <div>
                 <Hints />
             </div>
@@ -21,9 +21,9 @@ export default function About() {
         </div>
      
         <div>
-            <img src="computer.jpg" className="max-w-96 rounded-2xl ml-52"></img>
+            <img src="computer.jpg" className="lg:max-w-96 max-md:hidden sm:max-w-40 rounded-2xl md:ml-52 max-md:my-11"></img>
         </div>
-
+        </div>
       </div>
     </div>
   );
