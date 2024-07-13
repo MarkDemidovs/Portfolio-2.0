@@ -1,6 +1,6 @@
 export default function CodeContact() {
     return(
-        <div className="bg-black w-fit h-96 mx-auto mt-10 text-offwhite  max-md:text-sm md:text-xl lg:text-4xl">
+        <div className="bg-black w-fit h-96 mx-auto mt-10 text-offwhite  max-md:text-sm md:text-xl lg:text-4xl font-mono">
             <p className="mb-2"><span className="text-pinkCode">object</span> <span className="text-lightPinkCode">contact_info</span> = [</p>
             <p className="mb-2"><span className="text-bigText">"name"</span>: "Mark Demidovs",</p>
             <p className="mb-2"><span className="text-bigText">"email"</span>: "markdemidovs@proton.me"</p>

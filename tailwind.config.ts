@@ -19,6 +19,9 @@ const config: Config = {
         bigText: "#A239F2",
         pinkCode: "#fe1beb",
         lightPinkCode: "#ffb3f8",
+        reactText: "#0066FF",
+        tsText: "#4200FF",
+        twText:"#64A2FF"
       },
       backgroundImage: {
         "gradient-radial": "radial-gradient(var(--tw-gradient-stops))",
@@ -28,6 +31,8 @@ const config: Config = {
       
     },
   },
-  plugins: [],
+  plugins: [
+    require('tailwind-scrollbar-hide')
+  ],
 };
 export default config;

@@ -41,7 +41,7 @@ export default function Skills() {
   ];
 
   return (
-    <div className="min-h-screen w-screen bg-background1 pb-12">
+    <div className="min-h-screen w-screen bg-background1 pb-12" id="skillsPage">
       <h1 className="text-5xl text-offwhite text-center py-5">My Skills</h1>
 
       <div className="flex flex-row justify-center items-center">

@@ -2,7 +2,7 @@ import Hints from "../components/Hints";
 
 export default function About() {
   return (
-    <div className="bg-backgroundDiv2 h-fit pb-14">
+    <div className="bg-backgroundDiv2 h-fit pb-14 w-screen">
       <h1 className="text-5xl text-offwhite lg:mx-14 max-md:text-center md:mb-8 pt-5 max-md:mx-auto">About Me</h1>
       <div className="flex flex-row justify-center text-offwhite my-12">
        <div className="flex max-md:flex-col">
