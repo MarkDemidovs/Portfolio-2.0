@@ -17,6 +17,8 @@ const config: Config = {
         additionalGround: "#733A9F",
         foreground: "#2A262E",
         bigText: "#A239F2",
+        pinkCode: "#fe1beb",
+        lightPinkCode: "#ffb3f8",
       },
       backgroundImage: {
         "gradient-radial": "radial-gradient(var(--tw-gradient-stops))",

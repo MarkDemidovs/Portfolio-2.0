@@ -16,6 +16,7 @@ export default function Skills() {
     "JavaScript",
     "Node.js + Express.js",
     "MongoDB + mongoose",
+    "TailWind"
   ];
   const programmingSkills = [
     "C (Intermediate)",
